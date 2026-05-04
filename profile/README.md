@@ -19,6 +19,9 @@
 | [cardano-mithril-client](https://github.com/lambdasistemi/cardano-mithril-client) | Haskell client for Mithril UTxO snapshot download, verification, and extraction | |
 | [cardano-read-ledger](https://github.com/lambdasistemi/cardano-read-ledger) | Read Cardano block data, parametrized by era | [docs](https://lambdasistemi.github.io/cardano-read-ledger/) |
 | [chain-follower](https://github.com/lambdasistemi/chain-follower) | Abstract chain follower types — Follower, Intersector, ProgressOrRewind | [docs](https://lambdasistemi.github.io/chain-follower/) |
+| [cardano-ledger-inspector](https://github.com/lambdasistemi/cardano-ledger-inspector) | Cardano ledger operations compiled to WASI for browser and CLI tooling | |
+| [amaru-treasury-tx](https://github.com/lambdasistemi/amaru-treasury-tx) | Build unsigned Amaru treasury transactions (disburse, reorganize, withdraw) | |
+| [amaru-bootstrap](https://github.com/lambdasistemi/amaru-bootstrap) | Bootstrap data pipeline for Amaru on custom Cardano testnets — uses stock IOG tools, no consensus fork | |
 
 ### Merkle Patricia Forestry
 
@@ -27,6 +30,24 @@
 | [cardano-mpfs-offchain](https://github.com/lambdasistemi/cardano-mpfs-offchain) | Fact CRUD, transaction building, devnet server for MPFS on Cardano | [docs](https://lambdasistemi.github.io/cardano-mpfs-offchain/) |
 | [cardano-mpfs-browser](https://github.com/lambdasistemi/cardano-mpfs-browser) | MPFS fact explorer, transaction viewer and signer | [app](https://lambdasistemi.github.io/cardano-mpfs-browser/) |
 | [haskell-mts](https://github.com/lambdasistemi/haskell-mts) | Merkle Trees in Haskell with persistent storage and proofs | [docs](https://lambdasistemi.github.io/haskell-mts/) |
+
+### Wallets & Signing
+
+| Repository | Description | Pages |
+|---|---|---|
+| [cardano-wallet-sign](https://github.com/lambdasistemi/cardano-wallet-sign) | Cardano BIP39 wallet derivation and transaction signing library | |
+| [cardano-swiss-knife](https://github.com/lambdasistemi/cardano-swiss-knife) | Browser-first Cardano Swiss Knife for address tools, transaction inspection, and detached witness signing | |
+| [cardano-addresses-browser](https://github.com/lambdasistemi/cardano-addresses-browser) | Browser-based Cardano address toolkit — PureScript replacement for cardano-addresses CLI | |
+| [haskell-gamechanger](https://github.com/lambdasistemi/haskell-gamechanger) | Haskell client for the GameChanger Cardano wallet — script DSL, URL encoding, callback handling | |
+
+### Zero-Knowledge
+
+| Repository | Description | Pages |
+|---|---|---|
+| [harvest](https://github.com/lambdasistemi/harvest) | ZK voucher system for Cardano using Groth16 proofs | |
+| [zk-lab](https://github.com/lambdasistemi/zk-lab) | Lab for intention-driven zero-knowledge DSL targeting Plutus (Groth16, BBS+, Halo2) | |
+| [cardano-bbs](https://github.com/lambdasistemi/cardano-bbs) | BBS+ anonymous credentials for Cardano — Haskell off-chain + Aiken on-chain | |
+| [peer-proof-protocols](https://github.com/lambdasistemi/peer-proof-protocols) | Research and specifications for peer-only Merkle proof protocols | |
 
 ### Credentials & Compliance
 
@@ -41,7 +62,7 @@
 
 | Repository | Description | Pages |
 |---|---|---|
-| [cardano-governance-graph](https://github.com/lambdasistemi/cardano-governance-graph) | Interactive knowledge graph of Cardano governance (CIP-1694, Conway era) | [app](https://lambdasistemi.github.io/cardano-governance-graph/) |
+| [cardano-knowledge-maps](https://github.com/lambdasistemi/cardano-knowledge-maps) | Interactive knowledge graph of Cardano governance (CIP-1694, Conway era) | [app](https://lambdasistemi.github.io/cardano-knowledge-maps/) |
 | [graph-browser](https://github.com/lambdasistemi/graph-browser) | Interactive knowledge graph browser with guided tours — PureScript + Cytoscape.js | [app](https://lambdasistemi.github.io/graph-browser/) |
 | [call-graph-explorer](https://github.com/lambdasistemi/call-graph-explorer) | Interactive function call graph explorer for Haskell projects | [app](https://lambdasistemi.github.io/call-graph-explorer/) |
 
