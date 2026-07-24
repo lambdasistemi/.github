@@ -22,6 +22,10 @@
 | [cardano-ledger-inspector](https://github.com/lambdasistemi/cardano-ledger-inspector) | Cardano ledger operations compiled to WASI for browser and CLI tooling | |
 | [amaru-treasury-tx](https://github.com/lambdasistemi/amaru-treasury-tx) | Build unsigned Amaru treasury transactions (disburse, reorganize, withdraw) | |
 | [amaru-bootstrap](https://github.com/lambdasistemi/amaru-bootstrap) | Bootstrap data pipeline for Amaru on custom Cardano testnets — uses stock IOG tools, no consensus fork | |
+| [cardano-stake-csmt](https://github.com/lambdasistemi/cardano-stake-csmt) | CSMT over per-epoch Cardano stake distribution — verifiable stake-weighted voting proofs | [docs](https://lambdasistemi.github.io/cardano-stake-csmt/) |
+| [cardano-ledger-wasm](https://github.com/lambdasistemi/cardano-ledger-wasm) | Cardano ledger operations compiled to wasm32-wasi | |
+| [cardano-testnet-baker](https://github.com/lambdasistemi/cardano-testnet-baker) | Deterministic Cardano testnet artifact baker — genesis, keys, and ChainDB seeds from declarative JSON | |
+| [cip113-tx-builder](https://github.com/lambdasistemi/cip113-tx-builder) | CIP-113 programmable token transaction builders — CLI, Haskell library, WASM-WASI | [docs](https://lambdasistemi.github.io/cip113-tx-builder/) |
 
 ### Merkle Patricia Forestry
 
@@ -39,6 +43,9 @@
 | [cardano-swiss-knife](https://github.com/lambdasistemi/cardano-swiss-knife) | Browser-first Cardano Swiss Knife for address tools, transaction inspection, and detached witness signing | |
 | [cardano-addresses-browser](https://github.com/lambdasistemi/cardano-addresses-browser) | Browser-based Cardano address toolkit — PureScript replacement for cardano-addresses CLI | |
 | [haskell-gamechanger](https://github.com/lambdasistemi/haskell-gamechanger) | Haskell client for the GameChanger Cardano wallet — script DSL, URL encoding, callback handling | |
+| [cardano-tx-tools](https://github.com/lambdasistemi/cardano-tx-tools) | Cardano transaction tooling — builder, structural diff, blueprint decoding | [docs](https://lambdasistemi.github.io/cardano-tx-tools/) |
+| [cardano-wallet-tools](https://github.com/lambdasistemi/cardano-wallet-tools) | Operator wallet-UTxO toolkit + PureScript CIP-30 browser wallet over cardano-tx-tools | [docs](https://lambdasistemi.github.io/cardano-wallet-tools/) |
+| [cardano-multisig](https://github.com/lambdasistemi/cardano-multisig) | Permissionless witness-collection backend for Conway transactions — signature-authorized, accountless, self-cleaning | |
 
 ### Zero-Knowledge
 
@@ -65,11 +72,14 @@
 | [cardano-knowledge-maps](https://github.com/lambdasistemi/cardano-knowledge-maps) | Interactive knowledge graph of Cardano governance (CIP-1694, Conway era) | [app](https://lambdasistemi.github.io/cardano-knowledge-maps/) |
 | [graph-browser](https://github.com/lambdasistemi/graph-browser) | Interactive knowledge graph browser with guided tours — PureScript + Cytoscape.js | [app](https://lambdasistemi.github.io/graph-browser/) |
 | [call-graph-explorer](https://github.com/lambdasistemi/call-graph-explorer) | Interactive function call graph explorer for Haskell projects | [app](https://lambdasistemi.github.io/call-graph-explorer/) |
+| [cardano-ledger-rdf](https://github.com/lambdasistemi/cardano-ledger-rdf) | Cardano transaction graph and RDF tools | [docs](https://lambdasistemi.github.io/cardano-ledger-rdf/) |
+| [cardano-rdf-registry](https://github.com/lambdasistemi/cardano-rdf-registry) | Trustless MPFS-rooted registry for RDF books — owner-bound naming, content-addressed, offline-verified | |
 
 ### KERI
 
 | Repository | Description | Pages |
 |---|---|---|
+| [cardano-keri](https://github.com/lambdasistemi/cardano-keri) | KERI AID on Cardano — self-certifying identifiers with pre-rotation for on-chain credential anchoring | [docs](https://lambdasistemi.github.io/cardano-keri/) |
 | [kel-circle](https://github.com/lambdasistemi/kel-circle) | Synchronized multi-KEL circle protocol — event-sourced group coordination | [docs](https://lambdasistemi.github.io/kel-circle/) |
 
 ### Developer Tooling
